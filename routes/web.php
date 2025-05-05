@@ -2,7 +2,7 @@
 //para o primeiro site teste
 
 use Illuminate\Support\Facades\Route;
-Route::view('/', 'home');
+Route::view('/', 'petshop');
 
 //Para o site do petshop
 
