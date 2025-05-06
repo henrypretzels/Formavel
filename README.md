@@ -1,6 +1,6 @@
 ##Formulário exemplo
 
-Este é um sistema web desenvolvido em Laravel para fins didáticos, tendo com exemplo,
+Este é um sistema web desenvolvido em Laravel para fins didáticos, tendo com exemplo um formulário de uma firma de automação.
 
 ##  Tecnologias Utilizadas
 
