@@ -11,7 +11,7 @@ Este é um sistema web desenvolvido em Laravel para fins didáticos, tendo com e
 - CSS tradicional (alternativa a Tailwind)
 
 ## Estrutura do Projeto
-
+```
 ── app/
 │ └── View/Components/ # Componentes Blade personalizados
 ├── resources/
@@ -23,7 +23,7 @@ Este é um sistema web desenvolvido em Laravel para fins didáticos, tendo com e
 ├── package.json # Dependências do frontend
 ├── vite.config.js # Configuração do Vite
 └── README.md
-
+```
 ## ⚙️ Instalação
 
 1. Clone o repositório:
