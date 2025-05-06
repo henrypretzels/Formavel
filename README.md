@@ -27,28 +27,31 @@ Este é um sistema web desenvolvido em Laravel para fins didáticos, tendo com e
 ## ⚙️ Instalação
 
 1. Clone o repositório:
-   ```bash
+   ``
    git clone https://github.com/seuusuario/petshop-laravel.git
    cd petshop-laravel
+   ```
 
    2. Instale as dependências do Laravel:
 
 ```
 composer install
+```
 
 3. Instale as dependências do frontend (caso use Tailwind/Vite):
 ```
 npm install
-
+```
 4. Copie o arquivo .env.example para .env e gere a key:
 ```
 cp .env.example .env
 php artisan key:generate
+```
 
 5. Rode o servidor de desenvolvimento:
 ```
 php artisan serve
-
+```
 ##Desenvolvedores:
 Guilherme Weimer (GuilhermeWeimer)
 Henrique Nunes Prestes (henrypretzels)
