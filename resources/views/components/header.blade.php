@@ -1,7 +1,8 @@
-@props(['title'])  <!-- Define o atributo 'title' que pode ser passado ao componente -->
+@props(['title'])
 
-<header class="bg-blue-600 p-4">
-    <h1 class="text-3xl text-white text-center font-bold">
+<header>
+    <h1 class="titulo">
         {{ $title }}
     </h1>
 </header>
+

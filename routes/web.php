@@ -1,23 +1,15 @@
 <?php
-//para o primeiro site teste
 
 use Illuminate\Support\Facades\Route;
-Route::view('/', 'petshop');
-
-//Para o site do petshop
-
-//use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 
-Route::get('/petshop', function () {
-    return view('petshop');
-})->name('petshop.view');
+// Página principal — GHJ Automação
+Route::get('/', function () {
+    return view('example'); // novo nome da view
+})->name('automacao.view');
 
-// Simulação de POST — ainda sem lógica
-Route::post('/petshop', function (Request $request) {
-    // Apenas exemplo — salve no banco ou envie e-mail
-    return back()->with('success', 'Formulário enviado!');
-})->name('petshop.store');
-
-
-?>
+// Simulação de envio de formulário — sem lógica ainda
+Route::post('/contato', function (Request $request) {
+    // Aqui você pode adicionar lógica de validação, envio de e-mail ou salvar no banco
+    return back()->with('success', 'Formulário enviado com sucesso!');
+})->name('automacao.contato');
